@@ -1,0 +1,8 @@
+prefix=/home/zyz/workspace/xingtian_model2/install
+
+Name: xingtian_sym_1
+Description: Description of xingtian_sym_1
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
