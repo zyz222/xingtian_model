@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "xingtian_sym_1"
-PROJECT_SPACE_DIR = "/home/zyz/workspace/xingtian_model2/install"
+PROJECT_SPACE_DIR = "/home/zyz/workspace/xingtian_model_sym/install"
 PROJECT_VERSION = "1.0.0"

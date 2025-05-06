@@ -1,8 +1,8 @@
-# Install script for directory: /home/zyz/workspace/xingtian_model2/src/xingtian_sym_1
+# Install script for directory: /home/zyz/workspace/xingtian_model_sym/src/xingtian_sym_model
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/zyz/workspace/xingtian_model2/install")
+  set(CMAKE_INSTALL_PREFIX "/home/zyz/workspace/xingtian_model_sym/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,39 +43,39 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/zyz/workspace/xingtian_model2/build/xingtian_sym_1/catkin_generated/installspace/xingtian_sym_1.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/zyz/workspace/xingtian_model_sym/build/xingtian_sym_model/catkin_generated/installspace/xingtian_sym_1.pc")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/xingtian_sym_1/cmake" TYPE FILE FILES
-    "/home/zyz/workspace/xingtian_model2/build/xingtian_sym_1/catkin_generated/installspace/xingtian_sym_1Config.cmake"
-    "/home/zyz/workspace/xingtian_model2/build/xingtian_sym_1/catkin_generated/installspace/xingtian_sym_1Config-version.cmake"
+    "/home/zyz/workspace/xingtian_model_sym/build/xingtian_sym_model/catkin_generated/installspace/xingtian_sym_1Config.cmake"
+    "/home/zyz/workspace/xingtian_model_sym/build/xingtian_sym_model/catkin_generated/installspace/xingtian_sym_1Config-version.cmake"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/xingtian_sym_1" TYPE FILE FILES "/home/zyz/workspace/xingtian_model2/src/xingtian_sym_1/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/xingtian_sym_1" TYPE FILE FILES "/home/zyz/workspace/xingtian_model_sym/src/xingtian_sym_model/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/xingtian_sym_1/config" TYPE DIRECTORY FILES "/home/zyz/workspace/xingtian_model2/src/xingtian_sym_1/config/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/xingtian_sym_1/config" TYPE DIRECTORY FILES "/home/zyz/workspace/xingtian_model_sym/src/xingtian_sym_model/config/")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/xingtian_sym_1/launch" TYPE DIRECTORY FILES "/home/zyz/workspace/xingtian_model2/src/xingtian_sym_1/launch/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/xingtian_sym_1/launch" TYPE DIRECTORY FILES "/home/zyz/workspace/xingtian_model_sym/src/xingtian_sym_model/launch/")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/xingtian_sym_1/meshes" TYPE DIRECTORY FILES "/home/zyz/workspace/xingtian_model2/src/xingtian_sym_1/meshes/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/xingtian_sym_1/meshes" TYPE DIRECTORY FILES "/home/zyz/workspace/xingtian_model_sym/src/xingtian_sym_model/meshes/")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/xingtian_sym_1/urdf" TYPE DIRECTORY FILES "/home/zyz/workspace/xingtian_model2/src/xingtian_sym_1/urdf/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/xingtian_sym_1/urdf" TYPE DIRECTORY FILES "/home/zyz/workspace/xingtian_model_sym/src/xingtian_sym_model/urdf/")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/zyz/workspace/xingtian_model2/build/xingtian_sym_1/install_local_manifest.txt"
+  file(WRITE "/home/zyz/workspace/xingtian_model_sym/build/xingtian_sym_model/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

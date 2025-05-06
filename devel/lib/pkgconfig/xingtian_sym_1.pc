@@ -1,4 +1,4 @@
-prefix=/home/zyz/workspace/xingtian_model2/devel
+prefix=/home/zyz/workspace/xingtian_model_sym/devel
 
 Name: xingtian_sym_1
 Description: Description of xingtian_sym_1

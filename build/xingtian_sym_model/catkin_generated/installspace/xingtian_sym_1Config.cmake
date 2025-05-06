@@ -67,14 +67,14 @@ set(xingtian_sym_1_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(xingtian_sym_1_SOURCE_PREFIX /home/zyz/workspace/xingtian_model2/src/xingtian_sym_1)
-  set(xingtian_sym_1_DEVEL_PREFIX /home/zyz/workspace/xingtian_model2/devel)
+  set(xingtian_sym_1_SOURCE_PREFIX /home/zyz/workspace/xingtian_model_sym/src/xingtian_sym_model)
+  set(xingtian_sym_1_DEVEL_PREFIX /home/zyz/workspace/xingtian_model_sym/devel)
   set(xingtian_sym_1_INSTALL_PREFIX "")
   set(xingtian_sym_1_PREFIX ${xingtian_sym_1_DEVEL_PREFIX})
 else()
   set(xingtian_sym_1_SOURCE_PREFIX "")
   set(xingtian_sym_1_DEVEL_PREFIX "")
-  set(xingtian_sym_1_INSTALL_PREFIX /home/zyz/workspace/xingtian_model2/install)
+  set(xingtian_sym_1_INSTALL_PREFIX /home/zyz/workspace/xingtian_model_sym/install)
   set(xingtian_sym_1_PREFIX ${xingtian_sym_1_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/zyz/workspace/xingtian_model2/install/lib;/home/zyz/workspace/demo_xingtian_ws_dynamic/devel/lib;/home/zyz/workspace/xingtian_model/devel/lib;/home/zyz/demo_xingtian_ws/devel/lib;/home/zyz/workspace/xingtian/devel/lib;/home/zyz/workspace/ros_trafficlight/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/zyz/workspace/xingtian_model_sym/install/lib;/home/zyz/workspace/xingtian_model_sym/devel/lib;/home/zyz/workspace/demo_xingtian_ws_dynamic/devel/lib;/home/zyz/demo_xingtian_ws/devel/lib;/home/zyz/workspace/ros_trafficlight/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
