@@ -1,2 +1,2 @@
-xingtian_sym_1
--DCATKIN_DEVEL_PREFIX=/home/zyz/workspace/xingtian_model2/devel -DCMAKE_INSTALL_PREFIX=/home/zyz/workspace/xingtian_model2/install -G Unix Makefiles
+xingtian_sym_model
+-DCATKIN_DEVEL_PREFIX=/home/zyz/workspace/xingtian_model_sym/devel -DCMAKE_INSTALL_PREFIX=/home/zyz/workspace/xingtian_model_sym/install -G Unix Makefiles

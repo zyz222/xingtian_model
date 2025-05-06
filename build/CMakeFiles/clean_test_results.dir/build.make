@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zyz/workspace/xingtian_model2/src
+CMAKE_SOURCE_DIR = /home/zyz/workspace/xingtian_model_sym/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zyz/workspace/xingtian_model2/build
+CMAKE_BINARY_DIR = /home/zyz/workspace/xingtian_model_sym/build
 
 # Utility rule file for clean_test_results.
 
@@ -67,7 +67,7 @@ include CMakeFiles/clean_test_results.dir/compiler_depend.make
 include CMakeFiles/clean_test_results.dir/progress.make
 
 CMakeFiles/clean_test_results:
-	/usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /home/zyz/workspace/xingtian_model2/build/test_results
+	/usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /home/zyz/workspace/xingtian_model_sym/build/test_results
 
 CMakeFiles/clean_test_results.dir/codegen:
 .PHONY : CMakeFiles/clean_test_results.dir/codegen
@@ -85,6 +85,6 @@ CMakeFiles/clean_test_results.dir/clean:
 .PHONY : CMakeFiles/clean_test_results.dir/clean
 
 CMakeFiles/clean_test_results.dir/depend:
-	cd /home/zyz/workspace/xingtian_model2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zyz/workspace/xingtian_model2/src /home/zyz/workspace/xingtian_model2/src /home/zyz/workspace/xingtian_model2/build /home/zyz/workspace/xingtian_model2/build /home/zyz/workspace/xingtian_model2/build/CMakeFiles/clean_test_results.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/zyz/workspace/xingtian_model_sym/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zyz/workspace/xingtian_model_sym/src /home/zyz/workspace/xingtian_model_sym/src /home/zyz/workspace/xingtian_model_sym/build /home/zyz/workspace/xingtian_model_sym/build /home/zyz/workspace/xingtian_model_sym/build/CMakeFiles/clean_test_results.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/clean_test_results.dir/depend
 

@@ -1,8 +1,8 @@
-# Install script for directory: /home/zyz/workspace/xingtian_model2/src
+# Install script for directory: /home/zyz/workspace/xingtian_model_sym/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/zyz/workspace/xingtian_model2/install")
+  set(CMAKE_INSTALL_PREFIX "/home/zyz/workspace/xingtian_model_sym/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/zyz/workspace/xingtian_model2/build/gtest/cmake_install.cmake")
+  include("/home/zyz/workspace/xingtian_model_sym/build/gtest/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -59,94 +59,94 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/zyz/workspace/xingtian_model2/install/_setup_util.py")
+   "/home/zyz/workspace/xingtian_model_sym/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/zyz/workspace/xingtian_model2/install" TYPE PROGRAM FILES "/home/zyz/workspace/xingtian_model2/build/catkin_generated/installspace/_setup_util.py")
+  file(INSTALL DESTINATION "/home/zyz/workspace/xingtian_model_sym/install" TYPE PROGRAM FILES "/home/zyz/workspace/xingtian_model_sym/build/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/zyz/workspace/xingtian_model2/install/env.sh")
+   "/home/zyz/workspace/xingtian_model_sym/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/zyz/workspace/xingtian_model2/install" TYPE PROGRAM FILES "/home/zyz/workspace/xingtian_model2/build/catkin_generated/installspace/env.sh")
+  file(INSTALL DESTINATION "/home/zyz/workspace/xingtian_model_sym/install" TYPE PROGRAM FILES "/home/zyz/workspace/xingtian_model_sym/build/catkin_generated/installspace/env.sh")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/zyz/workspace/xingtian_model2/install/setup.bash;/home/zyz/workspace/xingtian_model2/install/local_setup.bash")
+   "/home/zyz/workspace/xingtian_model_sym/install/setup.bash;/home/zyz/workspace/xingtian_model_sym/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/zyz/workspace/xingtian_model2/install" TYPE FILE FILES
-    "/home/zyz/workspace/xingtian_model2/build/catkin_generated/installspace/setup.bash"
-    "/home/zyz/workspace/xingtian_model2/build/catkin_generated/installspace/local_setup.bash"
+  file(INSTALL DESTINATION "/home/zyz/workspace/xingtian_model_sym/install" TYPE FILE FILES
+    "/home/zyz/workspace/xingtian_model_sym/build/catkin_generated/installspace/setup.bash"
+    "/home/zyz/workspace/xingtian_model_sym/build/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/zyz/workspace/xingtian_model2/install/setup.sh;/home/zyz/workspace/xingtian_model2/install/local_setup.sh")
+   "/home/zyz/workspace/xingtian_model_sym/install/setup.sh;/home/zyz/workspace/xingtian_model_sym/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/zyz/workspace/xingtian_model2/install" TYPE FILE FILES
-    "/home/zyz/workspace/xingtian_model2/build/catkin_generated/installspace/setup.sh"
-    "/home/zyz/workspace/xingtian_model2/build/catkin_generated/installspace/local_setup.sh"
+  file(INSTALL DESTINATION "/home/zyz/workspace/xingtian_model_sym/install" TYPE FILE FILES
+    "/home/zyz/workspace/xingtian_model_sym/build/catkin_generated/installspace/setup.sh"
+    "/home/zyz/workspace/xingtian_model_sym/build/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/zyz/workspace/xingtian_model2/install/setup.zsh;/home/zyz/workspace/xingtian_model2/install/local_setup.zsh")
+   "/home/zyz/workspace/xingtian_model_sym/install/setup.zsh;/home/zyz/workspace/xingtian_model_sym/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/zyz/workspace/xingtian_model2/install" TYPE FILE FILES
-    "/home/zyz/workspace/xingtian_model2/build/catkin_generated/installspace/setup.zsh"
-    "/home/zyz/workspace/xingtian_model2/build/catkin_generated/installspace/local_setup.zsh"
+  file(INSTALL DESTINATION "/home/zyz/workspace/xingtian_model_sym/install" TYPE FILE FILES
+    "/home/zyz/workspace/xingtian_model_sym/build/catkin_generated/installspace/setup.zsh"
+    "/home/zyz/workspace/xingtian_model_sym/build/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/zyz/workspace/xingtian_model2/install/.rosinstall")
+   "/home/zyz/workspace/xingtian_model_sym/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/zyz/workspace/xingtian_model2/install" TYPE FILE FILES "/home/zyz/workspace/xingtian_model2/build/catkin_generated/installspace/.rosinstall")
+  file(INSTALL DESTINATION "/home/zyz/workspace/xingtian_model_sym/install" TYPE FILE FILES "/home/zyz/workspace/xingtian_model_sym/build/catkin_generated/installspace/.rosinstall")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/zyz/workspace/xingtian_model2/build/xingtian_sym_1/cmake_install.cmake")
+  include("/home/zyz/workspace/xingtian_model_sym/build/xingtian_sym_model/cmake_install.cmake")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/zyz/workspace/xingtian_model2/build/install_local_manifest.txt"
+  file(WRITE "/home/zyz/workspace/xingtian_model_sym/build/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -162,6 +162,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/zyz/workspace/xingtian_model2/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/home/zyz/workspace/xingtian_model_sym/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
